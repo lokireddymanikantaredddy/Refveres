@@ -71,10 +71,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold font-mono text-blue-600 dark:text-blue-400">
-              Refveres
-            </h1>
+          <div className="flex-shrink-0 flex items-center gap-3">
+            <span className="bg-white dark:bg-gray-900 rounded-full w-12 h-12 flex items-center justify-center ">
+              <img src="/logo2.png" alt="Refveres" className="w-8 h-8 object-contain" />
+            </span>
+            <span className="text-2xl text-black dark:text-white font-bold flex items-center hover:scale-105 transition-transform duration-200">
+              Ref<span className="text-blue-600">veres</span>
+            </span>
           </div>
 
           {/* Search Bar */}
@@ -126,7 +129,7 @@ const Navbar = () => {
 
             {/* Social icons */}
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/lokireddymanikantaredddy/Refveres"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg text-gray-500 dark:text-gray-400 

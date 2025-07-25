@@ -11,6 +11,18 @@ import { kotlinContent } from '../data/programing/kotlin';
 import { swiftContent } from '../data/programing/swift';
 import { phpContent } from '../data/programing/php';
 import { rubyContent } from '../data/programing/ruby';
+import { htmlContent } from '../data/web-development/html';
+import { cssContent } from '../data/web-development/css';
+import { reactContent } from '../data/web-development/react';
+import { angularContent } from '../data/web-development/angular';
+import { vueContent } from '../data/web-development/vue';
+import { sassContent } from '../data/web-development/sass';
+import { tailwindContent } from '../data/web-development/tailwind';
+import { nextjsContent } from '../data/web-development/next';
+import { nodeContent } from '../data/web-development/node';
+import { expressContent } from '../data/web-development/express';
+import { graphqlContent } from '../data/web-development/graphql';
+import { jqueryContent } from '../data/web-development/jquery';
 
 const programmingContent = {
   javascript: jsContent,
@@ -25,6 +37,18 @@ const programmingContent = {
   swift: swiftContent,
   php: phpContent,
   ruby: rubyContent,
+  html: htmlContent,
+  css: cssContent,
+  react: reactContent,
+  angular: angularContent,
+  vue: vueContent,
+  sass: sassContent,
+  tailwind: tailwindContent,
+  next: nextjsContent,
+  node: nodeContent,
+  express: expressContent,
+  graphql: graphqlContent,
+  jquery: jqueryContent,
 };
 
 export const searchContent = (query) => {
@@ -62,7 +86,7 @@ export const searchContent = (query) => {
             title: section.title,
             parentTitle: content.title,
             id: section.id,
-            path: `/${key}`,
+            path: `/${key}#${section.id}`,
           });
         }
 
@@ -75,7 +99,7 @@ export const searchContent = (query) => {
                 title: example.title,
                 parentTitle: `${content.title} > ${section.title}`,
                 id: section.id,
-                path: `/${key}`,
+                path: `/${key}#${section.id}`,
               });
             }
           });

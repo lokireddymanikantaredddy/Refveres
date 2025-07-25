@@ -26,10 +26,16 @@ import NodePage from './pages/web-development/Node';
 import GraphQLPage from './pages/web-development/GraphQL';
 import JQueryPage from './pages/web-development/JQuery';
 
+
+import Footer from './pages/Footer';
+import ScrollToTop from './pages/ScrollTop';
+
 function App() {
   return (
     <Router> 
+      <ScrollToTop />
       <Routes>
+        
         {/* Catch-all route for undefined paths */}
         <Route path="*" element={<Inprogress />} />
         {/* Home page */}
@@ -62,7 +68,9 @@ function App() {
         
 
       </Routes>
+      <Footer />
     </Router>
+    
   );
 }
 

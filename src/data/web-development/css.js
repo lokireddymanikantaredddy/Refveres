@@ -3,6 +3,7 @@ import { SiCss3 } from 'react-icons/si';
 export const cssContent = {
   icon: SiCss3,
   title: 'CSS',
+  color: '#1572B6',
   description: 'A comprehensive CSS reference with practical examples and explanations.',
   sections: [
     {

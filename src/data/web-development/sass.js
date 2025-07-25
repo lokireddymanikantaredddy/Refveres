@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { FaSass } from 'react-icons/fa';
 
 export const sassContent = {

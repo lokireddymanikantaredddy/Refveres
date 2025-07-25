@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { DiPhp } from 'react-icons/di';
 
 export const phpContent = {

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { GrGraphQl } from "react-icons/gr";
 
 export const graphqlContent = {

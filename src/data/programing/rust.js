@@ -1,5 +1,4 @@
 import { FaRust } from "react-icons/fa";
-import { SiRust } from 'react-icons/si';
 
 export const rustContent = {
     "icon": FaRust,

@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react';
 import { FiSun, FiMoon, FiGithub, FiInstagram, FiSearch } from 'react-icons/fi';
 import { searchContent } from '../utils/search';
 import SearchResults from './SearchResults';
-import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [isDark, setIsDark] = useState(false);

@@ -1,5 +1,4 @@
 import { FaPython } from "react-icons/fa";
-import { SiPython } from 'react-icons/si';
 
 export const pythonContent = {
     "icon": FaPython,

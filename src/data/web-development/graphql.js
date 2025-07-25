@@ -649,6 +649,7 @@ extend type Post @key(fields: "id") {
       examples: [
         {
           title: 'Persisted Queries',
+          // eslint-disable-next-line no-useless-escape
           code: `# Client sends query hash instead of full query
 POST /graphql
 {

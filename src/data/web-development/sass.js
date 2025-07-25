@@ -535,6 +535,7 @@ $susy: (
         },
         {
           title: 'Build Tools',
+          // eslint-disable-next-line no-useless-escape
           code: `// Using with Node-sass
 const sass = require('node-sass');
 sass.render({

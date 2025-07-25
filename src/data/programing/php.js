@@ -239,6 +239,7 @@ if ($hour === 12) {
         },
         {
           title: 'Switch vs. Match',
+          // eslint-disable-next-line eqeqeq, no-mixed-operators
           code: `$day = "Wednesday";
 
 // Switch statement (loose comparison `==`)

@@ -1,4 +1,4 @@
-import { FaTwitter, FaGithub, FaReddit, FaPinterest, FaLinkedin } from "react-icons/fa";
+import {  FaGithub,  FaLinkedin } from "react-icons/fa";
 
 const Footer = () => (
   <footer className="bg-[#232b39] text-gray-300 py-10 px-4">
